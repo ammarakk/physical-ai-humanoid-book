@@ -80,6 +80,11 @@
 <!--
   ACTION REQUIRED: The content in this section represents placeholders.
   Fill them out with the right functional requirements.
+
+  **IMPORTANT**: Consult the project constitution for mandatory requirements related to:
+  - Section 4: Required Book Coverage
+  - Section 5: Docusaurus Engineering Requirements
+  - Section 6: Reusable Intelligence Components (RI Skills)
 -->
 
 ### Functional Requirements
@@ -103,13 +108,19 @@
 ## Success Criteria *(mandatory)*
 
 <!--
-  ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
+  ACTION REQUIRED: The outcomes below are derived from the project constitution.
+  Define specific, measurable success criteria for THIS feature that align with these top-level goals.
 -->
 
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **Academic Quality**:
+  - **SC-001**: [e.g., "All new claims in Chapter 3 are verified against cited primary sources."]
+  - **SC-002**: [e.g., "The chapter passes a plagiarism scan with a score of 0%."]
+- **Technical Quality**:
+  - **SC-003**: [e.g., "The new interactive MDX component renders correctly in all supported browsers."]
+  - **SC-004**: [e.g., "The Docusaurus build completes without any new warnings or errors."]
+- **Workflow Compliance**:
+  - **SC-005**: [e.g., "The feature was developed following the full Spec-Kit Plus workflow (`/specify`, `/plan`, `/tasks`)."]
+- **Educational Quality**:
+  - **SC-006**: [e.g., "A user survey indicates that the new quiz component improves concept retention by 15%."]

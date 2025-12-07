@@ -1,0 +1,36 @@
+.diagramContainer {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 20px auto;
+  border: 1px solid var(--ifm-color-gray-300);
+  border-radius: var(--ifm-border-radius);
+  overflow: hidden;
+}
+
+.baseImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.partOverlay {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.partOverlay:hover,
+.partOverlay.highlighted {
+  border-color: var(--ifm-color-primary);
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.2);
+}
+
+.caption {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+  color: var(--ifm-font-color-secondary);
+}

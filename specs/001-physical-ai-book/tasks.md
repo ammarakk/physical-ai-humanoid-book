@@ -1,14 +1,12 @@
 ---
 
-description: "Task list template for feature implementation"
+description: "Task list for Physical AI & Humanoid Robotics Book"
 ---
 
-# Tasks: [FEATURE NAME]
+# Tasks: Physical AI & Humanoid Robotics Book
 
-**Input**: Design documents from `/specs/[###-feature-name]/`
+**Input**: Design documents from `specs/001-physical-ai-book/`
 **Prerequisites**: plan.md (required), spec.md (required for user stories), research.md, data-model.md, contracts/
-
-**Tests**: The examples below include test tasks. Tests are OPTIONAL - only include them if explicitly requested in the feature specification.
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
 
@@ -28,32 +26,13 @@ description: "Task list template for feature implementation"
   - `sidebars.js`: Documentation sidebar configuration.
 - Paths shown below assume this Docusaurus structure.
 
-<!-- 
-  ============================================================================
-  IMPORTANT: The tasks below are SAMPLE TASKS for illustration purposes only.
-  
-  The /sp.tasks command MUST replace these with actual tasks based on:
-  - User stories from spec.md (with their priorities P1, P2, P3...)
-  - Feature requirements from plan.md
-  - Entities from data-model.md
-  - Endpoints from contracts/
-  
-  Tasks MUST be organized by user story so each story can be:
-  - Implemented independently
-  - Tested independently
-  - Delivered as an MVP increment
-  
-  DO NOT keep these sample tasks in the generated tasks.md file.
-  ============================================================================
--->
-
 ## Phase 1: Setup (Shared Infrastructure)
 
 **Purpose**: Project initialization and basic Docusaurus structure.
 
-- [ ] T001 Initialize Docusaurus site using `npx create-docusaurus@latest`
-- [ ] T002 Configure `docusaurus.config.js` with project title, theme, and GitHub pages deployment settings.
-- [ ] T003 [P] Customize theme by editing files in `src/css/`.
+- [X] T001 Initialize Docusaurus site using `npx create-docusaurus@latest`
+- [X] T002 Configure `docusaurus.config.js` with project title, theme, and GitHub pages deployment settings.
+- [X] T003 [P] Customize theme by editing files in `src/css/custom.css`.
 
 ---
 
@@ -63,17 +42,17 @@ description: "Task list template for feature implementation"
 
 **⚠️ CRITICAL**: No chapter content work can begin until this phase is complete.
 
-- [ ] T004 Define book structure in `sidebars.js`.
-- [ ] T005 [P] Create placeholder Markdown files for each chapter in `docs/`.
-- [ ] T006 [P] Develop a shared `Glossary` MDX component in `src/components/Glossary.js`.
-- [ ] T007 Implement the `Fact-checking validator` plugin.
-- [ ] T008 Configure citation and plagiarism check tools.
+- [X] T004 Define book structure in `sidebars.js`
+- [X] T005 [P] Create placeholder Markdown files for each chapter in `docs/`
+- [X] T006 [P] Develop a shared `Glossary` MDX component in `src/components/Glossary.js`
+- [X] T007 Implement the `Fact-checking validator` plugin
+- [X] T008 Configure citation and plagiarism check tools
 
 **Checkpoint**: Foundation ready - chapter writing can now begin.
 
 ---
 
-## Phase 3: User Story 1 - Write Chapter 1 (Priority: P1) 🎯 MVP
+## Phase 3: User Story 1 - Understand Core Concepts (Priority: P1) 🎯 MVP
 
 **Goal**: Complete the first chapter of the book on "Physical AI Foundations".
 
@@ -81,44 +60,60 @@ description: "Task list template for feature implementation"
 
 ### Implementation for User Story 1
 
-- [ ] T009 [US1] Write content for "Embodied intelligence" in `docs/chapter1/embodied-intelligence.md`.
-- [ ] T010 [P] [US1] Create an interactive diagram as an MDX component in `src/components/HumanoidDiagram.js`.
-- [ ] T011 [US1] Embed the `HumanoidDiagram` component in the relevant chapter file.
-- [ ] T012 [US1] Add APA 7th edition citations for all claims.
-- [ ] T013 [US1] Run content through plagiarism and fact-checking validators.
+- [X] T009 [US1] Write content for "Embodied intelligence" in `docs/part1/chapter1-embodied-intelligence.md`
+- [X] T010 [P] [US1] Create an interactive diagram as an MDX component in `src/components/HumanoidDiagram.js`
+- [X] T011 [US1] Embed the `HumanoidDiagram` component in `docs/part1/chapter1-embodied-intelligence.md`
+- [X] T012 [US1] Add APA 7th edition citations for all claims in `docs/part1/chapter1-embodied-intelligence.md`
+- [X] T013 [US1] Run content through plagiarism and fact-checking validators for `docs/part1/chapter1-embodied-intelligence.md`
 
 **Checkpoint**: Chapter 1 is complete, cited, and published on the site.
 
 ---
 
-## Phase 4: User Story 2 - Implement Quiz Feature (Priority: P2)
+## Phase 4: User Story 2 - Implement a Robotic Control System (Priority: P2)
 
-**Goal**: Add a quiz generation plugin and implement a quiz for Chapter 1.
+**Goal**: Create chapters with reproducible code examples and diagrams related to ROS 2.
 
-**Independent Test**: Quizzes can be created via a custom MDX tag and are rendered correctly.
-
-### Tests for User Story 2 (OPTIONAL - only if tests requested) ⚠️
-
-- [ ] T014 [P] [US2] Write a unit test for the quiz generation logic.
+**Independent Test**: The chapters related to ROS 2 render correctly, and code examples can be run successfully.
 
 ### Implementation for User Story 2
 
-- [ ] T015 [US2] Develop the `docusaurus-quiz-generator` plugin.
-- [ ] T016 [US2] Add a `<Quiz>` MDX component in `src/components/Quiz.js`.
-- [ ] T017 [US2] Create quiz questions for Chapter 1 and add them to `docs/chapter1/summary.md` using the `<Quiz>` component.
+- [X] T014 [US2] Write content for "ROS 2: The Robotic Nervous System" in `docs/part2/chapter1-ros2-nervous-system.md`
+- [X] T015 [P] [US2] Create code example for rclpy + Python agents in `src/code-examples/ros2-python-agent.py`
+- [X] T016 [US2] Embed code example in `docs/part2/chapter1-ros2-nervous-system.md`
+- [ ] T017 [US2] Design ROS 2 command flow diagram and create image file `static/img/ros2-command-flow.png`
+- [X] T018 [US2] Embed ROS 2 command flow diagram in `docs/part2/chapter1-ros2-nervous-system.md`
 
-**Checkpoint**: The quiz feature is functional and Chapter 1 has a quiz.
+**Checkpoint**: ROS 2 related chapters and examples are complete.
 
 ---
 
-## Phase N: Polish & Cross-Cutting Concerns
+## Phase 5: User Story 3 - Design and Run a Digital Twin Simulation (Priority: P3)
+
+**Goal**: Create chapters and examples related to Gazebo and Unity simulations.
+
+**Independent Test**: The chapters related to Digital Twin simulation render correctly, and code examples can be run successfully.
+
+### Implementation for User Story 3
+
+- [X] T019 [US3] Write content for "The Digital Twin" in `docs/part3/chapter1-digital-twin.md`
+- [X] T020 [P] [US3] Create code example for Gazebo physics simulation in `src/code-examples/gazebo-simulation.py`
+- [X] T021 [US3] Embed Gazebo simulation code example in `docs/part3/chapter1-digital-twin.md`
+- [X] T022 [P] [US3] Create code example for Unity environment visualization in `src/code-examples/unity-visualization.cs`
+- [X] T023 [US3] Embed Unity visualization code example in `docs/part3/chapter1-digital-twin.md`
+
+**Checkpoint**: Digital Twin related chapters and examples are complete.
+
+---
+
+## Final Phase: Polish & Cross-Cutting Concerns
 
 **Purpose**: Improvements that affect the entire book.
 
-- [ ] TXXX [P] Review and edit all chapters for clarity and consistency.
-- [ ] TXXX Generate final PDF output.
-- [ ] TXXX Optimize site performance (image compression, lazy loading).
-- [ ] TXXX Validate all links and cross-references.
+- [X] T024 [P] Review and edit all chapters for clarity and consistency in `docs/`
+- [X] T025 Generate final PDF output
+- [X] T026 Optimize site performance (image compression, lazy loading)
+- [ ] T027 Validate all links and cross-references
 
 ---
 
@@ -155,20 +150,6 @@ description: "Task list template for feature implementation"
 - All tests for a user story marked [P] can run in parallel
 - Models within a story marked [P] can run in parallel
 - Different user stories can be worked on in parallel by different team members
-
----
-
-## Parallel Example: User Story 1
-
-```bash
-# Launch all tests for User Story 1 together (if tests requested):
-Task: "Contract test for [endpoint] in tests/contract/test_[name].py"
-Task: "Integration test for [user journey] in tests/integration/test_[name].py"
-
-# Launch all models for User Story 1 together:
-Task: "Create [Entity1] model in src/models/[entity1].py"
-Task: "Create [Entity2] model in src/models/[entity2].py"
-```
 
 ---
 

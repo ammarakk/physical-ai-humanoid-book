@@ -1,0 +1,5 @@
+# Prettier Ignore
+build/
+node_modules/
+.docusaurus/
+dist/

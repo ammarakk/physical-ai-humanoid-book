@@ -7,25 +7,19 @@
 
 ## Summary
 
-[Extract from feature spec: primary requirement + technical approach from research]
+The project is to create a comprehensive technical book on Physical AI and Humanoid Robotics, delivered as a Docusaurus website. The book will cover foundational concepts, ROS 2, Digital Twins, and AI-driven robotics, targeting advanced students and engineers. The project emphasizes academic rigor, reproducibility, and a spec-driven, agent-assisted authoring workflow.
 
 ## Technical Context
 
-<!--
-  ACTION REQUIRED: Replace the content in this section with the technical details
-  for the project. The structure here is presented in advisory capacity to guide
-  the iteration process.
--->
-
-**Language/Version**: [e.g., TypeScript 5.x, Node.js 20.x or NEEDS CLARIFICATION]  
-**Primary Dependencies**: [e.g., Docusaurus, React, MDX, Spec-Kit Plus or NEEDS CLARIFICATION]  
-**Storage**: [if applicable, e.g., Content-addressable storage via Cloudflare R2/S3 or N/A]  
-**Testing**: [e.g., Jest, Playwright, Vitest or NEEDS CLARIFICATION]  
-**Target Platform**: [e.g., Docusaurus / GitHub Pages]
-**Project Type**: [Web application]  
-**Performance Goals**: [e.g., High-performance build: caching, lazy loading, code splitting]  
-**Constraints**: [e.g., Final manuscript: 5,000–7,000 words]  
-**Scale/Scope**: [e.g., Docusaurus website with multiple custom plugins and interactive MDX components]
+**Language/Version**: Python 3.9+, ROS 2 Foxy/Galactic, TypeScript 4.x+ (for Docusaurus plugins)
+**Primary Dependencies**: Docusaurus, React, MDX, ROS 2, Gazebo, Unity, NVIDIA Isaac Sim
+**Storage**: Git for version control. Asset storage on GitHub (LFS if needed). Deployed site on GitHub Pages.
+**Testing**: Plagiarism checks (e.g., Turnitin), automated link checking, manual review for accuracy and clarity, Jest/Playwright for custom Docusaurus components.
+**Target Platform**: Docusaurus website on GitHub Pages.
+**Project Type**: Web application / Technical documentation.
+**Performance Goals**: Fast page loads (<2s), optimized images, efficient builds.
+**Constraints**: 5,000–7,000 words, APA 7th citation, Markdown + MDX.
+**Scale/Scope**: ~5 parts, 15-20 chapters, multiple interactive diagrams and code examples.
 
 ## Constitution Check
 
