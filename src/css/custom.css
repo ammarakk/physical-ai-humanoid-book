@@ -30,3 +30,40 @@
 }
 
 /* Custom styles can be added below this line */
+
+/* Footer Styling */
+.footer {
+  background-color: #f7f7f7; /* Light gray background */
+  padding: 40px 0; /* More vertical padding */
+  text-align: center; /* Center all footer content */
+  font-size: 0.9em; /* Slightly smaller text */
+  color: #555; /* Darker text for readability */
+}
+
+.footer--dark {
+  background-color: #242526; /* Dark background for dark mode */
+  color: #ccc; /* Lighter text for dark mode */
+}
+
+.footer__links {
+  margin-bottom: 20px; /* Space between links and copyright */
+  justify-content: center; /* Center links */
+}
+
+.footer__item {
+  margin: 0 15px; /* Spacing between individual links */
+}
+
+.footer__copyright {
+  font-size: 0.85em; /* Slightly smaller copyright text */
+  color: #777; /* Even darker for light mode */
+}
+
+.footer--dark .footer__copyright {
+  color: #aaa; /* Lighter for dark mode */
+}
+
+/* Adjust font size of the main hero title on the homepage */
+.hero__title {
+  font-size: 3rem; /* Adjust as needed for the main page title */
+}

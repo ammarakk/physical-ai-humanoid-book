@@ -19,37 +19,45 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Part 1 — Physical AI Foundations',
+      label: 'Part I: Physical AI Foundations',
       items: [
-        'part1/intro', // Placeholder chapter
+        'part1/chapter1-embodied-intelligence',
+        'part1/chapter2-sensors-actuators-locomotion',
+        'part1/chapter3-bio-inspired-humanoid-design',
+        'part1/chapter4-motion-planning-control',
+        'part1/chapter5-cognitive-architectures',
       ],
     },
     {
       type: 'category',
-      label: 'Part 2 — ROS 2: The Robotic Nervous System',
+      label: 'Part II: Humanoid Agent Systems',
       items: [
-        'part2/intro', // Placeholder chapter
+        'part2/chapter6-autonomous-decision-making',
+        'part2/chapter7-physical-action-planning',
+        'part2/chapter8-llm-driven-controllers',
+        'part2/chapter9-perception-vision-affordance',
+        'part2/chapter10-safety-constraints-compliance',
       ],
     },
     {
       type: 'category',
-      label: 'Part 3 — The Digital Twin',
+      label: 'Part III: Software & Engineering Stack',
       items: [
-        'part3/intro', // Placeholder chapter
+        'part3/chapter11-simulation-pipelines',
+        'part3/chapter12-ros2-realtime-control',
+        'part3/chapter13-embedded-microcontrollers',
+        'part3/chapter14-cloud-robotics',
       ],
     },
     {
       type: 'category',
-      label: 'Part 4 — The AI-Robot Brain (NVIDIA Isaac)',
+      label: 'Part IV: AI/Spec-Driven Authoring Architecture',
       items: [
-        'part4/intro', // Placeholder chapter
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Part 5 — Vision-Language-Action Robotics',
-      items: [
-        'part5/intro', // Placeholder chapter
+        'part4/chapter15-intelligent-learning-platform',
+        'part4/chapter16-typescript-plugin-engineering',
+        'part4/chapter17-build-time-automation',
+        'part4/chapter18-mdx-interactive-components',
+        'part4/chapter19-intelligent-content-validation',
       ],
     },
   ],

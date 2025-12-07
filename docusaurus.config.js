@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Physical AI & Humanoid Robotics Book',
+  title: 'PHYSICAL AI & HUMANOID ROBOTICS',
   tagline: 'An AI/Spec-Driven Technical Publication',
   favicon: 'img/favicon.ico',
 
@@ -90,19 +90,30 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Physical AI Book',
+        title: 'PANAVERSITY',
         logo: {
           alt: 'Physical AI Book Logo',
           src: 'img/logo.svg',
         },
         items: [
+
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Book',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/login',
+            label: 'Log In',
+            position: 'right',
+          },
+          {
+            to: '/signup',
+            label: 'Sign Up',
+            position: 'right',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
