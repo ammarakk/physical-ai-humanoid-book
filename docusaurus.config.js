@@ -117,7 +117,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
@@ -147,7 +147,7 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub Repository',
+                label: 'GitHub',
                 href: 'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book',
               },
             ],
