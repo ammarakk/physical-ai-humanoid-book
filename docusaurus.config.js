@@ -147,7 +147,9 @@ const config = {
                 to: '/blog',
               },
               {
-                            href: 'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book',              },
+                label: 'GitHub Repository',
+                href: 'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book',
+              },
             ],
           },
         ],
