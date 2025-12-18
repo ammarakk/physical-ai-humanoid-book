@@ -401,8 +401,8 @@ export default {
     }
   },
   "clientModules": [
-    "C:\\Users\\User\\Documents\\hakathon1\\physical-ai-humanoid-book\\src\\clientModules\\initAppConfig.js",
-    "C:\\Users\\User\\Documents\\hakathon1\\physical-ai-humanoid-book\\src\\clientModules\\languageToggle.js"
+    "C:\\Users\\User\\Documents\\hakathon1\\book\\src\\clientModules\\initAppConfig.js",
+    "C:\\Users\\User\\Documents\\hakathon1\\book\\src\\clientModules\\languageToggle.js"
   ],
   "customFields": {},
   "baseUrlIssueBanner": true,

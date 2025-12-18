@@ -1,0 +1,28 @@
+{
+  "id": "part1/course_overview",
+  "title": "Course Overview",
+  "description": "Course Details",
+  "source": "@site/docs/part1/course_overview.md",
+  "sourceDirName": "part1",
+  "slug": "/part1/course_overview",
+  "permalink": "/docs/part1/course_overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part1/course_overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Course Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Hardware Requirements",
+    "permalink": "/docs/part1/hardware_requirements"
+  }
+}

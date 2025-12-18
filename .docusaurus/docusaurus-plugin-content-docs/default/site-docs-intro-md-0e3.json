@@ -15,5 +15,10 @@
   "frontMatter": {
     "sidebar_position": 1,
     "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Course Overview",
+    "permalink": "/docs/part1/course_overview"
   }
 }

@@ -8,11 +8,12 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "part1/chapter1-embodied-intelligence",
+          "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/docs/intro"
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "part1/chapter1-embodied-intelligence",
@@ -37,6 +38,16 @@
             {
               "id": "part1/chapter5-cognitive-architectures",
               "path": "/docs/part1/chapter5-cognitive-architectures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/course_overview",
+              "path": "/docs/part1/course_overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/hardware_requirements",
+              "path": "/docs/part1/hardware_requirements",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -118,8 +129,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/part1/chapter1-embodied-intelligence",
-                "label": "part1/chapter1-embodied-intelligence"
+                "path": "/docs/intro",
+                "label": "intro"
               }
             }
           }

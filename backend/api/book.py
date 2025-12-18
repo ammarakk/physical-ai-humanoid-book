@@ -7,6 +7,8 @@ import sys
 import os
 # Add the backend directory to the path to allow absolute imports
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+# Add the database directory to the path to import vector_db
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'database'))
 
 from database import get_db
 from models.book_content import BookContentResponse
@@ -14,7 +16,7 @@ from api.schemas import ChatbotQueryResponse
 from middleware.auth import get_current_user
 from models.user import User
 from ai.embeddings import qwen_embeddings
-from database.vector_db import vector_db
+import vector_db
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -36,7 +38,7 @@ async def search_book_content(
         query_embedding = qwen_embeddings.get_embedding(q)
         
         # Search for similar content in the vector database
-        similar_contents = vector_db.search_similar(query_embedding, limit=5)
+        similar_contents = vector_db.vector_db.search_similar(query_embedding, limit=5)
         
         # Format results
         results = []

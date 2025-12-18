@@ -1,7 +1,7 @@
 {
   "id": "part1/chapter4-motion-planning-control",
-  "title": "chapter4-motion-planning-control",
-  "description": "Chapter 4: Motion Planning and Control Systems",
+  "title": "Chapter 4 - Motion Planning and Control Systems",
+  "description": "Overview",
   "source": "@site/docs/part1/chapter4-motion-planning-control.md",
   "sourceDirName": "part1",
   "slug": "/part1/chapter4-motion-planning-control",
@@ -11,14 +11,18 @@
   "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part1/chapter4-motion-planning-control.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Chapter 4 - Motion Planning and Control Systems"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "chapter3-bio-inspired-humanoid-design",
+    "title": "Chapter 3 - Bio-inspired Humanoid Design",
     "permalink": "/docs/part1/chapter3-bio-inspired-humanoid-design"
   },
   "next": {
-    "title": "chapter5-cognitive-architectures",
+    "title": "Chapter 5 - Cognitive Architectures for Embodied AI",
     "permalink": "/docs/part1/chapter5-cognitive-architectures"
   }
 }

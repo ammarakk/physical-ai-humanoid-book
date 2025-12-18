@@ -2,6 +2,7 @@ from typing import List, Optional
 import numpy as np
 import json
 import os
+import logging
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from qdrant_client.http.models import Distance, VectorParams
@@ -10,8 +11,19 @@ class VectorDB:
     def __init__(self):
         # Get vector database URL from environment variables
         vector_db_url = os.getenv("VECTOR_DB_URL", "http://localhost:6333")
-        self.client = QdrantClient(url=vector_db_url)
-        
+
+        # Try to connect to a remote server first, fall back to in-memory if unavailable
+        try:
+            self.client = QdrantClient(url=vector_db_url)
+            # Test connection
+            self.client.get_collections()
+            logging.info("Connected to Qdrant server at: %s", vector_db_url)
+        except Exception as e:
+            logging.warning(f"Could not connect to Qdrant server at {vector_db_url}: {e}")
+            logging.info("Falling back to in-memory Qdrant instance")
+            # Use in-memory client as fallback
+            self.client = QdrantClient(":memory:")
+
         # Initialize the collection for book content
         self.collection_name = "book_content"
         self._init_collection()

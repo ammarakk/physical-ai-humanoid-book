@@ -3,9 +3,8 @@ from sqlalchemy.orm import Session
 from typing import List, Dict, Any
 import logging
 import os
-
 import sys
-import os
+
 # Add the backend directory to the path to allow absolute imports
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 

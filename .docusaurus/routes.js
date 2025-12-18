@@ -134,20 +134,21 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'be4'),
+    component: ComponentCreator('/docs', 'ca7'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '1ec'),
+        component: ComponentCreator('/docs', 'a89'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0e0'),
+            component: ComponentCreator('/docs', '9b8'),
             routes: [
               {
                 path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '853'),
-                exact: true
+                component: ComponentCreator('/docs/intro', '61d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/part1/chapter1-embodied-intelligence',
@@ -176,6 +177,18 @@ export default [
               {
                 path: '/docs/part1/chapter5-cognitive-architectures',
                 component: ComponentCreator('/docs/part1/chapter5-cognitive-architectures', 'c2e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/part1/course_overview',
+                component: ComponentCreator('/docs/part1/course_overview', '884'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/part1/hardware_requirements',
+                component: ComponentCreator('/docs/part1/hardware_requirements', '4da'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

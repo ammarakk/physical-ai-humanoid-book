@@ -11,11 +11,22 @@ QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 
 class QdrantService:
     def __init__(self):
-        self.client = QdrantClient(url=QDRANT_URL)
+        # Try to connect to a remote server first, fall back to in-memory if unavailable
+        try:
+            self.client = QdrantClient(url=QDRANT_URL)
+            # Test connection
+            self.client.get_collections()
+            logging.info("Connected to Qdrant server at: %s", QDRANT_URL)
+        except Exception as e:
+            logging.warning(f"Could not connect to Qdrant server at {QDRANT_URL}: {e}")
+            logging.info("Falling back to in-memory Qdrant instance")
+            # Use in-memory client as fallback
+            self.client = QdrantClient(":memory:")
+
         self.collection_name = "book_content_chunks"
         self.vector_size = 768  # For Qwen embeddings
         self.distance = Distance.COSINE
-        
+
         # Create collection if it doesn't exist
         self._ensure_collection_exists()
     

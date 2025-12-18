@@ -17,10 +17,13 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
+    'intro',
     {
       type: 'category',
       label: 'Part I: Physical AI Foundations',
       items: [
+        'part1/course_overview',
+        'part1/hardware_requirements',
         'part1/chapter1-embodied-intelligence',
         'part1/chapter2-sensors-actuators-locomotion',
         'part1/chapter3-bio-inspired-humanoid-design',

@@ -277,20 +277,20 @@
     },
     "config": "config---chatbot-5-e-9-77b"
   },
-  "/docs-be4": {
+  "/docs-ca7": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-1ec": {
+  "/docs-a89": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-0e0": {
+  "/docs-9b8": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/intro-853": {
+  "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
@@ -313,6 +313,14 @@
   "/docs/part1/chapter5-cognitive-architectures-c2e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-part-1-chapter-5-cognitive-architecturesbc-6-571"
+  },
+  "/docs/part1/course_overview-884": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-part-1-course-overview-446-49c"
+  },
+  "/docs/part1/hardware_requirements-4da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-part-1-hardware-requirements-1-f-2-14c"
   },
   "/docs/part2/chapter10-safety-constraints-compliance-1f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
