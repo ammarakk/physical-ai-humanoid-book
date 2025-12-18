@@ -1,0 +1,24 @@
+{
+  "id": "part4/chapter16-typescript-plugin-engineering",
+  "title": "chapter16-typescript-plugin-engineering",
+  "description": "Chapter 16: TypeScript Plugin Engineering",
+  "source": "@site/docs/part4/chapter16-typescript-plugin-engineering.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter16-typescript-plugin-engineering",
+  "permalink": "/docs/part4/chapter16-typescript-plugin-engineering",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part4/chapter16-typescript-plugin-engineering.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter15-intelligent-learning-platform",
+    "permalink": "/docs/part4/chapter15-intelligent-learning-platform"
+  },
+  "next": {
+    "title": "chapter17-build-time-automation",
+    "permalink": "/docs/part4/chapter17-build-time-automation"
+  }
+}

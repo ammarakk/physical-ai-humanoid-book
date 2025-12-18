@@ -1,0 +1,24 @@
+{
+  "id": "part3/chapter12-ros2-realtime-control",
+  "title": "chapter12-ros2-realtime-control",
+  "description": "Chapter 12: ROS2 and Real-time Control",
+  "source": "@site/docs/part3/chapter12-ros2-realtime-control.md",
+  "sourceDirName": "part3",
+  "slug": "/part3/chapter12-ros2-realtime-control",
+  "permalink": "/docs/part3/chapter12-ros2-realtime-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part3/chapter12-ros2-realtime-control.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter11-simulation-pipelines",
+    "permalink": "/docs/part3/chapter11-simulation-pipelines"
+  },
+  "next": {
+    "title": "chapter13-embedded-microcontrollers",
+    "permalink": "/docs/part3/chapter13-embedded-microcontrollers"
+  }
+}

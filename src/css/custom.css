@@ -1,0 +1,393 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Robotic/AI Themed Custom Styles */
+:root {
+  /* AI/Robotic color palette */
+  --ai-primary-dark: #0a0a0a;
+  --ai-secondary-dark: #1a1a1a;
+  --ai-tertiary-dark: #2a2a2a;
+  --ai-accent-blue: #00a8ff;
+  --ai-accent-cyan: #00e5ff;
+  --ai-accent-purple: #a600ff;
+  --ai-text-primary: #ffffff;
+  --ai-text-secondary: #b0b0b0;
+  --ai-border: #3a3a3a;
+}
+
+/* Dark theme override for robotic theme */
+[data-theme='dark'] {
+  --ifm-color-primary: var(--ai-accent-blue);
+  --ifm-color-primary-dark: #0097e6;
+  --ifm-color-primary-darker: #0086cc;
+  --ifm-color-primary-darkest: #0070a6;
+  --ifm-color-primary-light: #1ab8ff;
+  --ifm-color-primary-lighter: #33c0ff;
+  --ifm-color-primary-lightest: #66d4ff;
+  --ifm-background-color: var(--ai-primary-dark);
+  --ifm-background-surface-color: var(--ai-secondary-dark);
+  --ifm-color-content: var(--ai-text-primary);
+  --ifm-color-content-secondary: var(--ai-text-secondary);
+  --ifm-toc-border-color: var(--ai-border);
+  --ifm-global-border-color: var(--ai-border);
+}
+
+/* Light theme for robotic theme */
+[data-theme='light'] {
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+  --ifm-color-content: #212529;
+  --ifm-color-content-secondary: #6c757d;
+  --ifm-toc-border-color: #e9ecef;
+  --ifm-global-border-color: #e9ecef;
+}
+
+/* Robotic/AI themed components */
+.hero--primary {
+  background: linear-gradient(135deg, var(--ai-secondary-dark) 0%, var(--ai-primary-dark) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero--primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(0, 168, 255, 0.05) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(166, 0, 255, 0.05) 0%, transparent 20%);
+  pointer-events: none;
+}
+
+/* Robotic styling for buttons */
+.button--primary {
+  background: linear-gradient(135deg, var(--ai-accent-blue) 0%, var(--ai-accent-purple) 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 168, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 168, 255, 0.4);
+}
+
+.button--outline-primary {
+  border: 2px solid var(--ai-accent-blue);
+  color: var(--ai-accent-blue);
+}
+
+/* Robotic typography */
+.text--light {
+  font-weight: 300;
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+/* Floating chatbot icon styling */
+.floating-chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ai-accent-blue) 0%, var(--ai-accent-purple) 100%);
+  box-shadow: 0 4px 20px rgba(0, 168, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.floating-chatbot-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(0, 168, 255, 0.6);
+}
+
+.floating-chatbot-icon::after {
+  content: "🤖";
+  font-size: 24px;
+}
+
+/* Chatbot interface styling */
+.chatbot-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 350px;
+  height: 500px;
+  background: var(--ai-secondary-dark);
+  border: 1px solid var(--ai-border);
+  border-radius: 10px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.chatbot-header {
+  background: linear-gradient(135deg, var(--ai-primary-dark) 0%, var(--ai-secondary-dark) 100%);
+  padding: 15px;
+  border-bottom: 1px solid var(--ai-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-title {
+  color: var(--ai-text-primary);
+  font-weight: bold;
+  margin: 0;
+}
+
+.chatbot-close {
+  background: none;
+  border: none;
+  color: var(--ai-text-secondary);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.chatbot-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: var(--ai-tertiary-dark);
+}
+
+.chatbot-input {
+  display: flex;
+  padding: 15px;
+  background: var(--ai-primary-dark);
+  border-top: 1px solid var(--ai-border);
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--ai-border);
+  border-radius: 5px;
+  background: var(--ai-tertiary-dark);
+  color: var(--ai-text-primary);
+}
+
+.chatbot-input button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: var(--ai-accent-blue);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Landing page animation styles */
+.landing-animation {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-robot {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.landing-robot::before {
+  content: "🤖";
+  font-size: 100px;
+  display: block;
+}
+
+/* Custom styles can be added below this line */
+
+/* Footer Styling */
+.footer {
+  background-color: var(--ai-secondary-dark); /* Dark background for footer */
+  padding: 40px 0; /* More vertical padding */
+  text-align: center; /* Center all footer content */
+  font-size: 0.9em; /* Slightly smaller text */
+  color: var(--ai-text-secondary); /* Darker text for readability */
+}
+
+.footer--dark {
+  background-color: var(--ai-primary-dark); /* Dark background for dark mode */
+  color: var(--ai-text-secondary); /* Lighter text for dark mode */
+}
+
+.footer__links {
+  margin-bottom: 20px; /* Space between links and copyright */
+  justify-content: center; /* Center links */
+}
+
+.footer__item {
+  margin: 0 15px; /* Spacing between individual links */
+}
+
+.footer__copyright {
+  font-size: 0.85em; /* Slightly smaller copyright text */
+  color: var(--ai-text-secondary); /* Even darker for light mode */
+}
+
+.footer--dark .footer__copyright {
+  color: var(--ai-text-secondary); /* Lighter for dark mode */
+}
+
+/* Adjust font size of the main hero title on the homepage */
+.hero__title {
+  font-size: 3rem; /* Adjust as needed for the main page title */
+  background: linear-gradient(135deg, var(--ai-accent-blue), var(--ai-accent-cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Chatbot page specific styles */
+.chatbot-page {
+  background: var(--ai-primary-dark);
+  min-height: 100vh;
+}
+
+.chatbot-interface-full {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--ai-secondary-dark);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.chatbot-interface-full .chatbot-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, var(--ai-primary-dark) 0%, var(--ai-secondary-dark) 100%);
+}
+
+.chatbot-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.chatbot-interface-full .chatbot-header h2 {
+  margin: 0;
+  color: var(--ai-text-primary);
+  font-size: 1.5rem;
+}
+
+.clear-button {
+  padding: 8px 16px;
+  background: linear-gradient(135deg, var(--ai-accent-purple), var(--ai-accent-blue));
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.clear-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(166, 0, 255, 0.4);
+}
+
+.chatbot-interface-full .chatbot-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: var(--ai-tertiary-dark);
+}
+
+.chatbot-interface-full .chatbot-input {
+  padding: 20px;
+  background: var(--ai-primary-dark);
+  border-top: 1px solid var(--ai-border);
+}
+
+.chatbot-interface-full .chatbot-input input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid var(--ai-border);
+  border-radius: 25px;
+  background: var(--ai-tertiary-dark);
+  color: var(--ai-text-primary);
+  font-size: 1rem;
+}
+
+.chatbot-interface-full .chatbot-input input:focus {
+  outline: none;
+  border-color: var(--ai-accent-blue);
+}
+
+.chatbot-interface-full .chatbot-input button {
+  margin-left: 10px;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, var(--ai-accent-blue), var(--ai-accent-purple));
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}

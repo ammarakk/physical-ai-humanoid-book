@@ -1,0 +1,24 @@
+{
+  "id": "part4/chapter15-intelligent-learning-platform",
+  "title": "chapter15-intelligent-learning-platform",
+  "description": "Chapter 15: Transforming Docusaurus into an Intelligent Learning Platform",
+  "source": "@site/docs/part4/chapter15-intelligent-learning-platform.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter15-intelligent-learning-platform",
+  "permalink": "/docs/part4/chapter15-intelligent-learning-platform",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part4/chapter15-intelligent-learning-platform.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter14-cloud-robotics",
+    "permalink": "/docs/part3/chapter14-cloud-robotics"
+  },
+  "next": {
+    "title": "chapter16-typescript-plugin-engineering",
+    "permalink": "/docs/part4/chapter16-typescript-plugin-engineering"
+  }
+}

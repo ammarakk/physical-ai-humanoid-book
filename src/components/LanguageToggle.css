@@ -1,0 +1,20 @@
+.navbar__language-toggle {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.navbar__language-select {
+  background-color: var(--ifm-navbar-link-color);
+  color: var(--ifm-navbar-background-color);
+  border: 1px solid var(--ifm-navbar-link-color);
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.navbar__language-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ifm-color-primary);
+}

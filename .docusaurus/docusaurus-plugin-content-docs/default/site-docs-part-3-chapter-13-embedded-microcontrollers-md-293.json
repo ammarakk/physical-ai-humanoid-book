@@ -1,0 +1,24 @@
+{
+  "id": "part3/chapter13-embedded-microcontrollers",
+  "title": "chapter13-embedded-microcontrollers",
+  "description": "Chapter 13: Embedded Microcontrollers",
+  "source": "@site/docs/part3/chapter13-embedded-microcontrollers.md",
+  "sourceDirName": "part3",
+  "slug": "/part3/chapter13-embedded-microcontrollers",
+  "permalink": "/docs/part3/chapter13-embedded-microcontrollers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part3/chapter13-embedded-microcontrollers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter12-ros2-realtime-control",
+    "permalink": "/docs/part3/chapter12-ros2-realtime-control"
+  },
+  "next": {
+    "title": "chapter14-cloud-robotics",
+    "permalink": "/docs/part3/chapter14-cloud-robotics"
+  }
+}

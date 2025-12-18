@@ -1,0 +1,24 @@
+{
+  "id": "part4/chapter18-mdx-interactive-components",
+  "title": "chapter18-mdx-interactive-components",
+  "description": "Chapter 18: MDX Interactive Components",
+  "source": "@site/docs/part4/chapter18-mdx-interactive-components.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter18-mdx-interactive-components",
+  "permalink": "/docs/part4/chapter18-mdx-interactive-components",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part4/chapter18-mdx-interactive-components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter17-build-time-automation",
+    "permalink": "/docs/part4/chapter17-build-time-automation"
+  },
+  "next": {
+    "title": "chapter19-intelligent-content-validation",
+    "permalink": "/docs/part4/chapter19-intelligent-content-validation"
+  }
+}

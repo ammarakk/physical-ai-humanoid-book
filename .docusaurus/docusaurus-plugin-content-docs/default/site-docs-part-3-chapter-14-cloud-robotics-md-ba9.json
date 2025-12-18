@@ -1,0 +1,24 @@
+{
+  "id": "part3/chapter14-cloud-robotics",
+  "title": "chapter14-cloud-robotics",
+  "description": "Chapter 14: Cloud Robotics and Distributed Agents",
+  "source": "@site/docs/part3/chapter14-cloud-robotics.md",
+  "sourceDirName": "part3",
+  "slug": "/part3/chapter14-cloud-robotics",
+  "permalink": "/docs/part3/chapter14-cloud-robotics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part3/chapter14-cloud-robotics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter13-embedded-microcontrollers",
+    "permalink": "/docs/part3/chapter13-embedded-microcontrollers"
+  },
+  "next": {
+    "title": "chapter15-intelligent-learning-platform",
+    "permalink": "/docs/part4/chapter15-intelligent-learning-platform"
+  }
+}

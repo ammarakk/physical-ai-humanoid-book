@@ -1,0 +1,20 @@
+{
+  "id": "part4/chapter19-intelligent-content-validation",
+  "title": "chapter19-intelligent-content-validation",
+  "description": "Chapter 19: Intelligent Content Validation",
+  "source": "@site/docs/part4/chapter19-intelligent-content-validation.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter19-intelligent-content-validation",
+  "permalink": "/docs/part4/chapter19-intelligent-content-validation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part4/chapter19-intelligent-content-validation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter18-mdx-interactive-components",
+    "permalink": "/docs/part4/chapter18-mdx-interactive-components"
+  }
+}

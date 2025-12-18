@@ -1,0 +1,31 @@
+.floating-chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--ai-accent-blue) 0%, var(--ai-accent-purple) 100%);
+  box-shadow: 0 4px 20px rgba(0, 168, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  font-size: 24px;
+  color: white;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.floating-chatbot-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(0, 168, 255, 0.6);
+}
+
+.floating-chatbot-icon.open {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(166, 0, 255, 0.6);
+}

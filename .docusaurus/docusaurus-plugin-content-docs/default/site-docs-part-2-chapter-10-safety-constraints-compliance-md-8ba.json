@@ -1,0 +1,24 @@
+{
+  "id": "part2/chapter10-safety-constraints-compliance",
+  "title": "chapter10-safety-constraints-compliance",
+  "description": "Chapter 10: Safety Constraints and Compliance",
+  "source": "@site/docs/part2/chapter10-safety-constraints-compliance.md",
+  "sourceDirName": "part2",
+  "slug": "/part2/chapter10-safety-constraints-compliance",
+  "permalink": "/docs/part2/chapter10-safety-constraints-compliance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part2/chapter10-safety-constraints-compliance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter9-perception-vision-affordance",
+    "permalink": "/docs/part2/chapter9-perception-vision-affordance"
+  },
+  "next": {
+    "title": "chapter11-simulation-pipelines",
+    "permalink": "/docs/part3/chapter11-simulation-pipelines"
+  }
+}

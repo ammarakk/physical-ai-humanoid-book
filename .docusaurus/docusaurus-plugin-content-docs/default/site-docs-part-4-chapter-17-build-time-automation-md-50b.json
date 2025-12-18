@@ -1,0 +1,24 @@
+{
+  "id": "part4/chapter17-build-time-automation",
+  "title": "chapter17-build-time-automation",
+  "description": "Chapter 17: Build-time Analysis and Automation",
+  "source": "@site/docs/part4/chapter17-build-time-automation.md",
+  "sourceDirName": "part4",
+  "slug": "/part4/chapter17-build-time-automation",
+  "permalink": "/docs/part4/chapter17-build-time-automation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part4/chapter17-build-time-automation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter16-typescript-plugin-engineering",
+    "permalink": "/docs/part4/chapter16-typescript-plugin-engineering"
+  },
+  "next": {
+    "title": "chapter18-mdx-interactive-components",
+    "permalink": "/docs/part4/chapter18-mdx-interactive-components"
+  }
+}

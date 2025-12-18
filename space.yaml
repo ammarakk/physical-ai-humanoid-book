@@ -1,0 +1,13 @@
+# Hugging Face Space Configuration
+---
+title: Physical AI & Humanoid Robotics Book
+emoji: 🤖
+color: '#123456'
+sdk: docker
+python_version: '3.10'
+run_as_api: false
+hardware:
+  cpu: null
+  memory: 16GiB
+  gpu: null
+---
