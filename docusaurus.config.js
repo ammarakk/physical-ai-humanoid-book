@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'physical-ai-humanoid-book', // Usually your GitHub org/user name.
+  organizationName: 'ammarakk', // Usually your GitHub org/user name.
   projectName: 'physical-ai-humanoid-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/',
+            'https://github.com/ammarakk/physical-ai-humanoid-book/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/',
+            'https://github.com/ammarakk/physical-ai-humanoid-book/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -124,7 +124,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book',
+            href: 'https://github.com/ammarakk/physical-ai-humanoid-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -176,7 +176,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book',
+                href: 'https://github.com/ammarakk/physical-ai-humanoid-book',
               },
               {
                 label: 'AI Technology Explained',
