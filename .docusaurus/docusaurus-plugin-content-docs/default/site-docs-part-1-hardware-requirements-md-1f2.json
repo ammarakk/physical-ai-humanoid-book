@@ -1,0 +1,28 @@
+{
+  "id": "part1/hardware_requirements",
+  "title": "Hardware Requirements",
+  "description": "This course is technically demanding. It sits at the intersection of three heavy computational loads: Physics Simulation (Isaac Sim/Gazebo), Visual Perception (SLAM/Computer Vision), and Generative AI (LLMs/VLA).",
+  "source": "@site/docs/part1/hardware_requirements.md",
+  "sourceDirName": "part1",
+  "slug": "/part1/hardware_requirements",
+  "permalink": "/docs/part1/hardware_requirements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part1/hardware_requirements.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Hardware Requirements"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Course Overview",
+    "permalink": "/docs/part1/course_overview"
+  },
+  "next": {
+    "title": "Chapter 1 - Embodied Intelligence",
+    "permalink": "/docs/part1/chapter1-embodied-intelligence"
+  }
+}

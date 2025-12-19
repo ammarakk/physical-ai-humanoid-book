@@ -1,0 +1,24 @@
+{
+  "id": "part2/chapter6-autonomous-decision-making",
+  "title": "chapter6-autonomous-decision-making",
+  "description": "Chapter 6: Autonomous Decision-Making",
+  "source": "@site/docs/part2/chapter6-autonomous-decision-making.md",
+  "sourceDirName": "part2",
+  "slug": "/part2/chapter6-autonomous-decision-making",
+  "permalink": "/docs/part2/chapter6-autonomous-decision-making",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part2/chapter6-autonomous-decision-making.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter5-cognitive-architectures",
+    "permalink": "/docs/part1/chapter5-cognitive-architectures"
+  },
+  "next": {
+    "title": "chapter7-physical-action-planning",
+    "permalink": "/docs/part2/chapter7-physical-action-planning"
+  }
+}

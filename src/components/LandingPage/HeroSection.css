@@ -1,0 +1,43 @@
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-animation {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-buttons .button {
+  flex: 1;
+  max-width: 200px;
+  margin: 0;
+}
+
+.hero__description {
+  margin-bottom: 1.5rem;
+  color: var(--ai-text-secondary);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 996px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-buttons .button {
+    max-width: 100%;
+    width: 100%;
+  }
+}

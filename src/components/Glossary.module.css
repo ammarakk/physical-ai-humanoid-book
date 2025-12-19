@@ -1,0 +1,17 @@
+.glossaryContainer {
+  background-color: var(--ifm-background-color);
+  border-radius: var(--ifm-border-radius);
+  padding: var(--ifm-spacing-md);
+  margin-bottom: var(--ifm-spacing-lg);
+}
+
+.term {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+  margin-top: var(--ifm-spacing-sm);
+}
+
+.description {
+  margin-bottom: var(--ifm-spacing-sm);
+  margin-left: var(--ifm-spacing-md);
+}

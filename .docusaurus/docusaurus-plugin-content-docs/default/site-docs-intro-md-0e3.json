@@ -1,0 +1,19 @@
+{
+  "id": "intro",
+  "title": "Introduction",
+  "description": "Welcome to the Physical AI & Humanoid Robotics book. This interactive guide explores the fascinating world of Physical AI and Humanoid Robotics, combining traditional text with AI-powered learning tools.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Introduction"
+  }
+}

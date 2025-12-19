@@ -1,0 +1,24 @@
+{
+  "id": "part1/chapter3-bio-inspired-humanoid-design",
+  "title": "chapter3-bio-inspired-humanoid-design",
+  "description": "Chapter 3: Bio-inspired Humanoid Design",
+  "source": "@site/docs/part1/chapter3-bio-inspired-humanoid-design.md",
+  "sourceDirName": "part1",
+  "slug": "/part1/chapter3-bio-inspired-humanoid-design",
+  "permalink": "/docs/part1/chapter3-bio-inspired-humanoid-design",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part1/chapter3-bio-inspired-humanoid-design.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter2-sensors-actuators-locomotion",
+    "permalink": "/docs/part1/chapter2-sensors-actuators-locomotion"
+  },
+  "next": {
+    "title": "chapter4-motion-planning-control",
+    "permalink": "/docs/part1/chapter4-motion-planning-control"
+  }
+}

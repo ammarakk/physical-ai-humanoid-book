@@ -1,0 +1,5 @@
+runtime: python3
+type: streamlit  # Though we're using FastAPI, we'll adapt this for our backend
+
+# Note: For a FastAPI/React project like this, you would typically use a Docker approach
+# This is just a placeholder structure

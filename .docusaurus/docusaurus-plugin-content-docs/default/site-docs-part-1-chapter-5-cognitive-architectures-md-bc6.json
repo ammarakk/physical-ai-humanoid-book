@@ -1,0 +1,24 @@
+{
+  "id": "part1/chapter5-cognitive-architectures",
+  "title": "chapter5-cognitive-architectures",
+  "description": "Chapter 5: Cognitive Architectures for Embodied AI",
+  "source": "@site/docs/part1/chapter5-cognitive-architectures.md",
+  "sourceDirName": "part1",
+  "slug": "/part1/chapter5-cognitive-architectures",
+  "permalink": "/docs/part1/chapter5-cognitive-architectures",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part1/chapter5-cognitive-architectures.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter4-motion-planning-control",
+    "permalink": "/docs/part1/chapter4-motion-planning-control"
+  },
+  "next": {
+    "title": "chapter6-autonomous-decision-making",
+    "permalink": "/docs/part2/chapter6-autonomous-decision-making"
+  }
+}

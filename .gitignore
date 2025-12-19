@@ -1,0 +1,97 @@
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.DS_Store
+.env.example  # In case we accidentally committed sensitive examples
+
+# Frontend/node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.cache/
+.next/
+nuxt/
+dist/
+public/
+.env.local
+.env.development
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+logs/
+*.log
+
+# Process
+*.pid
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+.cov
+
+# Backup files
+*~
+*.bak
+*.swp
+*#
+
+# Venv
+venv/
+env/
+ENV/
+
+# Secrets
+secrets/
+credentials.json
+credentials.yml
+config.json
+config.yml
+
+# Local development
+local/
+local_settings.py

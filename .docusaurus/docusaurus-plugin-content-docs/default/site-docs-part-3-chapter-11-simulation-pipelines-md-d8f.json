@@ -1,0 +1,24 @@
+{
+  "id": "part3/chapter11-simulation-pipelines",
+  "title": "chapter11-simulation-pipelines",
+  "description": "Chapter 11: Simulation Pipelines",
+  "source": "@site/docs/part3/chapter11-simulation-pipelines.md",
+  "sourceDirName": "part3",
+  "slug": "/part3/chapter11-simulation-pipelines",
+  "permalink": "/docs/part3/chapter11-simulation-pipelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part3/chapter11-simulation-pipelines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter10-safety-constraints-compliance",
+    "permalink": "/docs/part2/chapter10-safety-constraints-compliance"
+  },
+  "next": {
+    "title": "chapter12-ros2-realtime-control",
+    "permalink": "/docs/part3/chapter12-ros2-realtime-control"
+  }
+}

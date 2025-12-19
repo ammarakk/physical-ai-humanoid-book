@@ -1,0 +1,131 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "part1/chapter1-embodied-intelligence",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro"
+            },
+            {
+              "id": "part1/chapter1-embodied-intelligence",
+              "path": "/docs/part1/chapter1-embodied-intelligence",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter2-sensors-actuators-locomotion",
+              "path": "/docs/part1/chapter2-sensors-actuators-locomotion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter3-bio-inspired-humanoid-design",
+              "path": "/docs/part1/chapter3-bio-inspired-humanoid-design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter4-motion-planning-control",
+              "path": "/docs/part1/chapter4-motion-planning-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1/chapter5-cognitive-architectures",
+              "path": "/docs/part1/chapter5-cognitive-architectures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter10-safety-constraints-compliance",
+              "path": "/docs/part2/chapter10-safety-constraints-compliance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter6-autonomous-decision-making",
+              "path": "/docs/part2/chapter6-autonomous-decision-making",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter7-physical-action-planning",
+              "path": "/docs/part2/chapter7-physical-action-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter8-llm-driven-controllers",
+              "path": "/docs/part2/chapter8-llm-driven-controllers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2/chapter9-perception-vision-affordance",
+              "path": "/docs/part2/chapter9-perception-vision-affordance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter11-simulation-pipelines",
+              "path": "/docs/part3/chapter11-simulation-pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter12-ros2-realtime-control",
+              "path": "/docs/part3/chapter12-ros2-realtime-control",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter13-embedded-microcontrollers",
+              "path": "/docs/part3/chapter13-embedded-microcontrollers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3/chapter14-cloud-robotics",
+              "path": "/docs/part3/chapter14-cloud-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter15-intelligent-learning-platform",
+              "path": "/docs/part4/chapter15-intelligent-learning-platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter16-typescript-plugin-engineering",
+              "path": "/docs/part4/chapter16-typescript-plugin-engineering",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter17-build-time-automation",
+              "path": "/docs/part4/chapter17-build-time-automation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter18-mdx-interactive-components",
+              "path": "/docs/part4/chapter18-mdx-interactive-components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4/chapter19-intelligent-content-validation",
+              "path": "/docs/part4/chapter19-intelligent-content-validation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "welcome",
+              "path": "/docs/welcome"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/part1/chapter1-embodied-intelligence",
+                "label": "part1/chapter1-embodied-intelligence"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

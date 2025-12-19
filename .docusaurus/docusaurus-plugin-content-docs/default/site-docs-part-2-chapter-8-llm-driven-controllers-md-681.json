@@ -1,0 +1,24 @@
+{
+  "id": "part2/chapter8-llm-driven-controllers",
+  "title": "chapter8-llm-driven-controllers",
+  "description": "Chapter 8: LLM-Driven Controllers",
+  "source": "@site/docs/part2/chapter8-llm-driven-controllers.md",
+  "sourceDirName": "part2",
+  "slug": "/part2/chapter8-llm-driven-controllers",
+  "permalink": "/docs/part2/chapter8-llm-driven-controllers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/physical-ai-humanoid-book/physical-ai-humanoid-book/tree/main/docs/part2/chapter8-llm-driven-controllers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "chapter7-physical-action-planning",
+    "permalink": "/docs/part2/chapter7-physical-action-planning"
+  },
+  "next": {
+    "title": "chapter9-perception-vision-affordance",
+    "permalink": "/docs/part2/chapter9-perception-vision-affordance"
+  }
+}
