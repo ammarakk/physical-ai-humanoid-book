@@ -141,16 +141,16 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Physical AI Fundamentals',
-                to: '/docs/physical-ai-fundamentals',
+                label: 'Part I: Physical AI Foundations',
+                to: '/docs/part1/chapter1-embodied-intelligence',
               },
               {
-                label: 'Humanoid Robotics',
-                to: '/docs/humanoid-robotics',
+                label: 'Part II: Humanoid Agent Systems',
+                to: '/docs/part2/chapter6-autonomous-decision-making',
               },
               {
-                label: 'Machine Learning in Robotics',
-                to: '/docs/ml-robotics',
+                label: 'Part III: Software & Engineering Stack',
+                to: '/docs/part3/chapter11-simulation-pipelines',
               },
             ],
           },
@@ -183,8 +183,8 @@ const config = {
                 href: 'https://deepmind.google/technologies/gemini/',
               },
               {
-                label: 'Privacy Policy',
-                to: '/privacy',
+                label: 'Welcome',
+                to: '/docs/welcome',
               },
             ],
           },
